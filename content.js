@@ -57,7 +57,7 @@ const getParser = async () => {
     xpaths = ['#price_inside_buybox', '#rentPrice', '#newBuyBoxPrice', '#priceblock_ourprice', '#eBookTab .header-price', '.a-size-base.a-color-price'];
   }
   else if (currentDomain == "www.trendyol.com") {
-    xpaths = ['.prc-slg', '.prc-dsc', '.prc-org'];
+    xpaths = ['.prc-dsc', '.prc-slg', '.prc-org'];
   }
   else {
     if (DEV_MODE) {
