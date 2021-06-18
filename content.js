@@ -62,7 +62,9 @@ const getParser = async () => {
   else if (currentDomain == "www.bestbuy.com") {
     xpaths = ['.price-box.pricing-lib-price-8-2123-16 > div:nth-child(1) > div:nth-child(1) > div > span:nth-child(1)','.priceView-hero-price.priceView-customer-price > span:nth-child(1)'];
   }
-  
+  else if (currentDomain == "www.walmart.com") {
+    xpaths = ['.price.display-inline-block.arrange-fit.price.price--stylized > .visuallyhidden'];
+  }
   else {
     if (DEV_MODE) {
       console.error("This website is not mapped but in manifest file. CurretDomain: " + currentDomain)

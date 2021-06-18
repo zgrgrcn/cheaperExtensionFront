@@ -10,7 +10,8 @@
         "https://www.amazon.de/*",
         "https://www.trendyol.com/*",
         "https://www.atasunoptik.com.tr/*",
-        "https://www.bestbuy.com/*"
+        "https://www.bestbuy.com/*",
+        "https://www.walmart.com/*"
       ],
       "js": [
         "jquery-3.5.1.min.js",
