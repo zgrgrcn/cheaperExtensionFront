@@ -84,7 +84,7 @@ const sendPriceToMainApp = (postData) => {
     async: false,
     data: postData,
     success: function (res) {
-      console.log('res: ' + JSON.stringify(res))
+      console.log('pos res: ' + JSON.stringify(res))
     },
     error: function () {
       console.log(postData.price);
@@ -99,7 +99,7 @@ const getPriceHistoryFromMainApp = (postData) => {
     async: false,
     data: postData,
     success: function (res) {
-      console.log('res: ' + JSON.stringify(res))
+      console.log('get res: ' + JSON.stringify(res))
     },
     error: function () {
       alert(postData);
